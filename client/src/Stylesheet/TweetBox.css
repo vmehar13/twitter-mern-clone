@@ -1,0 +1,47 @@
+.TweetBox_Container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5em;
+    border-bottom: 2px solid grey;
+}
+.TweetBox_Title {
+    border-bottom: 2px solid beige;
+    margin-bottom: 10px;
+}
+.TweetBox {
+    display: flex;
+    align-items: center;
+}
+
+.TweetBox > input {
+    padding-right: 500px;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 0.5em;
+}
+.Tweet_Text {
+    border: none;
+    padding-right: 200px;
+    font-size: 1.2rem;
+    margin-left: 0.5em;
+}
+.Tweet_Upload {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.Tweet_Button > button{
+    border-radius: 999px;
+    background-color: orangered;
+    padding: 0.5em 2em;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    margin-right: 20px;
+}
+.Tweet_Button > button:hover {
+    color: orangered;
+    background-color: white;
+    border: black;
+}

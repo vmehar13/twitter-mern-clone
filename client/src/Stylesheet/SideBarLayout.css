@@ -1,0 +1,16 @@
+.SideBar_Layout {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+    padding: 0.5em 2em;
+}
+
+.SideBar_LayoutText {
+    margin-left: 0.5em;
+}
+
+.SideBar_Layout:hover {
+    border-radius: 999px;
+    background-color: #eae7dc;
+    color: orangered;
+}

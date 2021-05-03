@@ -1,0 +1,15 @@
+.SideBar_Container {
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+}
+.SideBar_HomeIcon {
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+}
+.SideBar_BrandIcon {
+    color: grey;
+}
+.SideBar {
+    margin-left: 0.5em;
+}
